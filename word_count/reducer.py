@@ -22,3 +22,4 @@ for line in sys.stdin:
 
 if current_word:
     print(f"{current_word}\t{current_count}")
+    
