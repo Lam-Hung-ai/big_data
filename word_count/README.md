@@ -1,6 +1,6 @@
 # Hướng dẫn chạy chương trình Word Count với hadoop
 - Tại thư mục big_data/word_count, thêm data.txt vào folder input của hdfs
-``cmd
+```cmd
 hdfs dfs -mkdir /input
 hdfs dfs -put ./data.txt /input
 ```
