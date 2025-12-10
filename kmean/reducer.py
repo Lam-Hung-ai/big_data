@@ -2,6 +2,7 @@
 import sys
 
 def process(input: str) -> list[float]:
+    input = input.split('\t')[0]
     parts = input.strip().split(',')
     parts = [x.strip() for x in parts if x]
     if len(parts) == 0: return []
@@ -11,7 +12,11 @@ def process(input: str) -> list[float]:
         return []
     return point
 
+def get_point_str(point: list[float]) -> str:
+    return ",".join([f"{x:.4f}" for x in point])
+
 current_centroid = None
+cluster_points = []
 point_sum = []
 count = 0
 
@@ -28,10 +33,12 @@ for line in sys.stdin:
     if current_centroid == centroid_idx:
         point_sum = [sum(x) for x in zip(point_sum, point)]
         count += 1
+        cluster_points.append(point)
     else:
         if current_centroid is not None:
             new_center = [x / count for x in point_sum]
-            print(",".join([f"{x:.4f}" for x in new_center]))
+            all_points = [get_point_str(new_center)] + [get_point_str(p) for p in cluster_points]
+            print(get_point_str(new_center)+"\t" + "\t".join(all_points))
         
         current_centroid = centroid_idx
         point_sum = point
@@ -40,4 +47,5 @@ for line in sys.stdin:
 # In tâm cuối cùng
 if current_centroid is not None:
     new_center = [x / count for x in point_sum]
-    print(",".join([f"{x:.4f}" for x in new_center]))
+    all_points = [get_point_str(new_center)] + [get_point_str(p) for p in cluster_points]
+    print(get_point_str(new_center)+"\t" + "\t".join(all_points))

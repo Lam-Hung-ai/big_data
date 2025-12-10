@@ -7,6 +7,7 @@ def get_dist(p1, p2):
     return math.sqrt(sum_sq)
 
 def process(input: str) -> list[float]:
+    input = input.split('\t')[0]
     parts = input.strip().split(',')
     parts = [x.strip() for x in parts if x]
     if len(parts) == 0: return []

@@ -15,9 +15,7 @@ chmod +x /opt/hadoop-3.4.2/share/hadoop/tools/lib/hadoop-streaming-3.4.2.jar
 - Chạy trực tiếp với map reduce trên hadoop chỉ 1 vòng lặp
 ```cmd
 hadoop jar /opt/hadoop-3.4.2/share/hadoop/tools/lib/hadoop-streaming-3.4.2.jar \
-    -file mapper.py \
-    -file reducer.py \
-    -file centroids.txt \
+    -files mapper.py,reducer.py,centroids.txt \
     -mapper mapper.py \
     -reducer reducer.py \
     -input /input/kmeans/data-kmeans.txt \
