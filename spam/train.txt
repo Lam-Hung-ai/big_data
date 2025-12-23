@@ -1,0 +1,20 @@
+"Chúc mừng bạn nhận được quà miễn phí hôm nay, vui lòng xác nhận thông tin",1
+"Chào bạn, hôm nay tôi liên hệ để xác nhận thông tin cuộc họp",0
+"Bạn đã được nhận ưu đãi miễn phí, xác nhận ngay hôm nay",1
+"Tôi gửi bạn thông tin dự án, nếu cần hãy liên hệ lại",0
+"Nhận quà miễn phí chỉ hôm nay, bạn hãy xác nhận thông tin ngay",1
+"Hôm nay tôi gửi bạn thông tin hợp đồng để bạn xác nhận",0
+"Bạn đã trúng thưởng, nhận quà miễn phí bằng cách xác nhận thông tin",1
+"Liên hệ với tôi hôm nay để xác nhận thông tin thanh toán",0
+"Nhận ngay ưu đãi hôm nay, hoàn toàn miễn phí cho bạn",1
+"Tôi cần xác nhận lại thông tin của bạn trước khi liên hệ",0
+"Bạn được chọn nhận quà hôm nay, vui lòng xác nhận thông tin",1
+"Hôm nay tôi liên hệ để gửi bạn thông tin mới nhất",0
+"Nhận tiền miễn phí cho bạn, xác nhận thông tin để nhận ngay",1
+"Gửi bạn thông tin lịch làm việc hôm nay",0
+"Ưu đãi miễn phí hôm nay, bạn chỉ cần xác nhận thông tin",1
+"Tôi liên hệ bạn hôm nay để xác nhận thông tin cuộc hẹn",0
+"Nhận voucher miễn phí cho bạn trong hôm nay",1
+"Hôm nay bạn vui lòng xác nhận thông tin nhân sự",0
+"Nhận quà hôm nay, miễn phí và dành riêng cho bạn",1
+"Tôi gửi bạn thông tin, nếu có thắc mắc hãy liên hệ",0

@@ -39,6 +39,7 @@ for line in sys.stdin:
             new_center = [x / count for x in point_sum]
             all_points = [get_point_str(new_center)] + [get_point_str(p) for p in cluster_points]
             print(get_point_str(new_center)+"\t" + "\t".join(all_points))
+            cluster_points = []
         
         current_centroid = centroid_idx
         point_sum = point
